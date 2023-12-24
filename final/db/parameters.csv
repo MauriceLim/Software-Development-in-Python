@@ -1,0 +1,7 @@
+id,proj_periods,num_paths,seed,record_description
+1,30,1000,0,20 year projection and 1000 scen
+2,50,1000,0,50 year projection and 1000 scen
+3,70,1000,0,70 year projection and 1000 scen
+4,30,10000,0,20 year projection and 10000 scen
+5,50,10000,0,50 year projection and 10000 scen
+6,70,10000,0,70 year projection and 10000 scen

@@ -1,0 +1,5 @@
+FROM mysql:8.0 AS base
+
+ENV MYSQL_ALLOW_EMPTY_PASSWORD=true
+
+COPY ./db/init.sql /docker-entrypoint-initdb.d/

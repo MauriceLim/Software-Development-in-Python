@@ -1,0 +1,4 @@
+id,mortality_multiplier,wd_age,min_wd_delay,record_description
+1,1.0,65,10,Base
+2,1.05,65,10,Mortality up 5pc
+3,0.95,65,10,Mortality down 5pc

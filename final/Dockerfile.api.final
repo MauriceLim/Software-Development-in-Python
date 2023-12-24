@@ -1,0 +1,12 @@
+FROM continuumio/anaconda3:2022.05 AS base
+
+WORKDIR /tmp
+COPY ./requirements.txt .
+RUN conda run -n base pip install --use-feature=in-tree-build -r requirements.txt \
+    && apt-get update \
+    && apt-get install -y vim
+
+WORKDIR /app
+COPY . .
+
+ENTRYPOINT ["uvicorn", "api:app", "--host", "0.0.0.0"]
