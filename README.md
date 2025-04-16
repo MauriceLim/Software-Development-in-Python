@@ -1,5 +1,4 @@
-**Overview
-**
+Overview
 
 This repository contains a collection of Python modules and Jupyter notebooks focused on financial modeling and quantitative analysis. The projects encompass various computational finance topics, including Monte Carlo simulations, Black-Scholes modeling, interest rate analysis, and partial differential equations (PDEs)
 
